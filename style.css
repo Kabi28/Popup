@@ -1,0 +1,58 @@
+button{
+    background-color: rgb(39, 190, 39);
+    color: azure;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+    margin-left: 42vw;
+    margin-bottom: 25px;
+}
+.popup{
+    display: none;
+    width: 30vw;
+    height: 10vh;
+    border: solid;
+    padding-bottom: 50vh;
+    margin-left: 31vw;
+    background-color: rgba(230, 167, 57, 0.848);
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 10px 10px 10px;
+
+}
+body{
+    background-color: rgb(161, 152, 113);
+}
+
+.popup h2{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: red;
+    text-align: center;
+    margin-top: 25px;
+}
+.popup p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding-top: 25%;
+    padding: 10px;
+    position: absolute;
+    top: 15vh;
+    text-transform: capitalize;
+}
+.ok {
+    background: rgb(18, 18, 234);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px ;
+    margin: 0;
+    position: absolute;
+    bottom: 2rem;
+    right: 11rem;
+}
+.ok:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}

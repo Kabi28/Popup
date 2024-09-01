@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="openPop()">Click Here</button>
+    <div id="popup" class="popup">
+        <h2>Error</h2>
+        <p>you are choosen the invalid input .please make sure your input was correct!... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam sint tempora nihil, suscipit laudantium quaerat qui temporibus explicabo ad molestias.</p>
+        <button onclick="closePop()" class="ok">OK</button>
+
+    </div>
+    <script>
+        function openPop() {
+            document.getElementById("popup").style.display = "block"
+        }
+        function closePop() {
+            document.getElementById("popup").style.display = "none"
+        }
+
+    </script>
+    
+</body>
+</html>
